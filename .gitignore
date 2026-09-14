@@ -1,0 +1,34 @@
+# Datasets — DEAP and SEED are licence-restricted, never commit them
+data/**
+!data/README.md
+*.dat
+*.mat
+*.cnt
+*.bdf
+participant_ratings.xls*
+
+# Derived arrays and model artefacts
+*.npy
+*.npz
+*.pkl
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Office temp files
+~$*
+
+# OS
+.DS_Store
+Thumbs.db
